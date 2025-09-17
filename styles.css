@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+  background: url(image/hero-img.png);
+  filter: brightness(75%);
+  background-size: cover;
+  height: 40rem;
+  width: 100%;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 60px;
+  height: 60px;
+  width: 85rem;
+  position: sticky;
+  left: 6rem;
+  top: 3rem;
+  padding: 6px;
+}
+.profile img {
+  height: 50px;
+  border-radius: 50%;
+  width: 50px;
+}
+.menu_list ul {
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+  margin-top: 1rem;
+}
+.menu_list a {
+  text-decoration: none;
+  color: black;
+}
+.Contact {
+  display: flex;
+  gap: 4rem;
+}
+.phone {
+  display: flex;
+  margin-top: 1rem;
+}
+.phone img {
+  height: 25px;
+}
+.add button {
+  border: none;
+  padding: 10px;
+  background-color: #d98a46;
+  border-radius: 20px;
+  color: white;
+  width: 120px;
+  margin-top: 7px;
+}
+.find_home {
+  text-align: center;
+  margin-top: 15rem;
+  color: white;
+}
+.find_home_heading h1 {
+  font-size: 50px;
+}
+.search_box input {
+  height: 50px;
+  width: 30rem;
+  border-radius: 30px;
+  padding: 10px;
+}
+.search_box img {
+  position: relative;
+  right: 3rem;
+  background-color: #d98a46;
+  border-radius: 50%;
+  padding: 6px;
+  top: 1rem;
+}
+.villa_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.villa_box1 {
+  background: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+/* End of nav section styles */
+.property_deals {
+  text-align: center;
+  margin-top: 3rem;
+}
+.property_deals_deatils h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.bg_of_property {
+  margin-top: 20px;
+}
+.bg_of_property img {
+  border-radius: 10px;
+  height: 266px;
+  width: 190px;
+}
+.bg_of_property_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.bg_of_property_p {
+  position: relative;
+  left: 2rem;
+  bottom: 3rem;
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 140px;
+  font-size: 8px;
+  color: white;
+
+  padding: 15px;
+}
+.bg_of_property_p span {
+  margin-left: 20px;
+}
+/* end of best property style */
+.trending_div {
+  text-align: center;
+  margin-top: 4rem;
+}
+.trending_menu ul {
+  margin-top: 2rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.trending_menu a {
+  text-decoration: none;
+  color: black;
+  border-radius: 40px;
+  padding: 5px;
+  border: 1px solid black;
+  transition: background-color 0.1s, color 0.1s;
+}
+.trending_menu ul :hover {
+  background-color: #d98a46;
+  color: white;
+  border: none;
+  border-radius: 40px;
+}
+.poster {
+  border-radius: 10px;
+  height: 145px;
+  width: 275px;
+}
+
+.trending_info {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-self: center;
+  margin-top: 40px;
+}
+.room_size {
+  display: flex;
+  gap: 1rem;
+  color: gray;
+  font-size: 10px;
+}
+.trending_info_deatils {
+  font-size: 10px;
+  color: #535353;
+}
+.room_size img {
+  height: 18px;
+  padding-top: 5px;
+}
+.trending_info span {
+  color: #535353;
+}
+.trending_info_price {
+  font-size: 10px;
+}
+.listing_part button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  width: 180px;
+}
+
+.listing_part {
+  display: flex;
+  justify-self: center;
+  margin-top: 6rem;
+  transition: background-color 1s;
+}
+.listing_part :hover {
+  background-color: #d98a46;
+}
+.listing_part img {
+  position: relative;
+  right: 2rem;
+  width: 15px;
+}
+/* end of trending styles */
+.exclusive_property {
+  background-color: #f5f5f5;
+  margin-top: 9rem;
+}
+.exclusive_property_deatils {
+  text-align: center;
+  padding-top: 9rem;
+}
+.gallary {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.gallary img {
+  border-radius: 14px;
+}
+
+.main_pic img {
+  height: 27rem;
+  filter: brightness(50%);
+}
+.gallary_main_dealtils {
+  position: relative;
+  bottom: 10rem;
+  color: white;
+  padding-left: 2rem;
+  line-height: 40px;
+}
+.building_size img {
+  height: 20px;
+}
+.building_size {
+  display: flex;
+  gap: 1rem;
+}
+.small_pic {
+  height: 13rem;
+  width: 29rem;
+}
+.box_pic {
+  height: 14rem;
+  width: 14rem;
+}
+.gallary_cards {
+  display: flex;
+  gap: 1rem;
+}
+.gallary_box {
+  background-color: #17324e;
+  border-radius: 15px;
+  color: white;
+  padding-left: 27px;
+  padding-top: 20px;
+}
+.gallary_deatils {
+  font-size: 11px;
+}
+.text1 {
+  padding-top: 1rem;
+}
+.text2 {
+  padding-top: 1rem;
+  line-height: 40px;
+}
+.gallary_victor {
+  background-color: white;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 2rem;
+  left: 9rem;
+}
+.gallary_victor_img {
+  height: 29px;
+  padding: 5px;
+}
+/* end of exclusive property style */
+.recent_rent_properties {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30rem;
+  margin-top: 6rem;
+}
+.arrows_div {
+  display: flex;
+  gap: 1rem;
+}
+.double_arrows_div {
+  background-color: #d98a46;
+  padding: 8px;
+  border-radius: 50%;
+  height: 46px;
+}
+.recent_rent_properties_heading {
+  padding-left: 13rem;
+}
+/* end of properties for rent  */
+.explore_section {
+  height: 40rem;
+  background-color: #f4f4f4;
+  margin-top: 6rem;
+}
+.explore_deatils {
+  text-align: center;
+  padding-top: 6rem;
+  line-height: 40px;
+}
+.cities {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.cities_pic {
+  border-radius: 20px;
+}
+/* end of cities explore stlyes */
+.footer_part_info {
+  background-color: #2a2a2aad;
+  width: 18rem;
+  border-radius: 20px;
+  position: relative;
+  top:13rem;
+  left: 7rem;
+  padding: 20px;
+  color: white;
+  line-height: 20px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(4px);
+}
+.footer_part_p {
+  font-size: 10px;
+}
+.renting_btn {
+  margin-top: 8px;
+  border: none;
+  background-color: #fa381b;
+  color: white;
+  padding: 10px;
+  border-radius: 7px;
+}
+.tower_info{
+display: flex;
+justify-content: space-around;
+gap: 40rem;
+  position: relative;
+  top: 23rem;
+
+
+}
+.tower_deatils{
+  display: flex;
+  gap: 4rem;
+
+}
+.footer_img{
+  height: 500px;
+  width: 100%;
+  position: absolute;
+}
+.tower_deatils ul{
+  list-style-type: none;
+  line-height:25px;
+}
+.tower_deatils a{
+  text-decoration: none;
+  color: #535353;
+  font-size: 10px;
+}
